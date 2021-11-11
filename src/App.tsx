@@ -1,6 +1,4 @@
+import { Game } from "./Game";
 import "./styles.css";
-import Game from "./Game";
 
-export default function App() {
-  return <Game />;
-}
+export const App = () => <Game />;
